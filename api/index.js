@@ -21,9 +21,9 @@ mongoose
     console.error(err);
   });
 
-app.use(
-  cors()
-);
+// app.use(
+//   cors()
+// );
 
 app.use(express.json());
 
